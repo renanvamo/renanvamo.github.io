@@ -1,0 +1,20 @@
+body {
+    background-color: rgba(219, 216, 216, 0.993);
+    color: rgb(5, 48, 5);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#foto {
+    width: 180px;
+    border-radius: 30px;   
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+}
+
+.redesocial {
+    width: 30px;
+}
