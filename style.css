@@ -1,13 +1,16 @@
 body {
-    background-color: rgba(219, 216, 216, 0.993);
-    color: rgb(5, 48, 5);
+    color: rgb(0, 0, 41);
     font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    width: 1000px;
+    margin-left: 100px;   
 }
 
 #foto {
     width: 180px;
-    border-radius: 30px;   
+    border-radius: 100%;   
 }
 
 a {
@@ -17,4 +20,11 @@ a {
 
 .redesocial {
     width: 30px;
+}
+
+#index-button {
+    background-color: #0e72ed;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 7px;
 }
