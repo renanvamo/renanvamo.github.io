@@ -2,11 +2,10 @@ body {
     color: #E6FAFC;
     font-size: 18px;
     font-family: Poppins, sans-serif;
-    font-weight: 50;
     letter-spacing: 0.2px;
     max-width: 1000px;
-    min-width: 340;
-    margin-left: 50px;   
+    min-width: 340px;
+    margin: 100px 50px;   
     background-image: url(imagens/back.jpg);
     background-size: cover;
 
@@ -14,11 +13,10 @@ body {
 
 h1, h2 {
     color: #42fd38;
-    font-weight: 1200;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 #foto {
-    border-radius: 20px;   
+    border-radius: 100%;   
 }
 
 a {
@@ -35,15 +33,32 @@ a {
     color: #121212;
     padding: 15px 50px;
     border-radius: 7px;
+    font-weight: 700;
+
 }
 
 #name {
-    font-weight: 800;
+    font-weight: bold;
+    margin-bottom: 30x;
 }
 
-#description {
-    position: absolute; 
-    left: 255px;
-    top: 156    px;
+.description-container {
+    max-width: 400px;
 }
 
+.description-text {
+
+}
+
+.description-image {
+    
+
+}
+
+#trybe {
+    color: green;
+}
+
+#page {
+    width: 400px;
+}
